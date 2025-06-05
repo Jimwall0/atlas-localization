@@ -22,7 +22,8 @@ babel = Babel(app, locale_selector=get_locale)
 @app.route('/')
 def index():
     # This will display the string in the appropriate language
-    return _("Hello, World!")
+    gretting = _("Hello, World!")
+    return gretting
 
 
 if __name__ == "__main__":

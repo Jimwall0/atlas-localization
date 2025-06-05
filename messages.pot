@@ -19,5 +19,5 @@ msgstr ""
 
 #: localization/app.py:25
 msgid "Hello, World!"
-msgstr ""
+msgstr "Bonjour, le monde!"
 
